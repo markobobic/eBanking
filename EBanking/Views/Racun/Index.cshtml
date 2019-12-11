@@ -1,0 +1,73 @@
+﻿@model EBanking.ViewModels.RacunRacuniViewModel
+@using EBanking.Models
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista Racuna</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Broj racuna</th>
+        <th>Nosilac Racuna</th>
+        <th>Ukupno</th>
+        <th>Online</th>
+        <th>Aktivan</th>
+    </tr>
+    @foreach (Racun item in Model.Racuni)
+    {
+        <tr @(item.Aktivan ? "style=background-color:green" : "style=background-color:red")>
+            <td>@item.BrojRacuna</td>
+            <td>@item.NosilacRacuna</td>
+            <td>@item.UkupnoStanje</td>
+            <td>@item.OnlineBanking</td>
+            <td>@item.Aktivan</td>
+            <td><a href="/Uplatnica?id=@item.Id" class="a-link">otvori</a></td>
+            <td><a href="/Racun/Update?id=@item.Id" class="a-link">izmeni</a></td>
+            <td><a href="/Racun/Delete?id=@item.Id" class="a-link">obrisi</a></td>
+            <td>
+                @if (item.Aktivan)
+                {
+
+                    <a href="/Racun/Deaktiviraj?id=@item.Id" class="a-link">deaktiviraj</a>
+                }
+                else
+                {
+                    <a href="/Racun/Aktiviraj?id=@item.Id" class="a-link">aktiviraj</a>
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+<h2>Dodaj novi racun</h2>
+<form method="post" onsubmit="return Validacija(this)">
+    <div class="form-group">
+        @Html.LabelFor(m => m.Racun.NosilacRacuna)
+        <input type="text" value="@Model.Racun.NosilacRacuna" class="form-control" name="Racun.NosilacRacuna" />
+        @Html.ValidationMessageFor(m => m.Racun.NosilacRacuna)
+        <span id="NosilacSpan"></span>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Racun.BrojRacuna)
+        <input type="text" value="@Model.Racun.BrojRacuna" class="form-control" name="Racun.BrojRacuna" />
+        @Html.ValidationMessageFor(m => m.Racun.BrojRacuna)
+        <span id="BrojRacunaSpan"></span>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Racun.OnlineBanking)
+        <input type="checkbox" value="true" name="Racun.OnlineBanking" checked />
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Racun.Aktivan)
+        <input type="checkbox" value="true" name="Racun.Aktivan" checked />
+    </div>
+    <input type="submit" value="Dodaj novi racun" class="btn btn-primary" />
+</form>
+<hr />
+<a href="/Uplatnica/Pretraga" class="btn btn-warning btn-lg">Pretraga uplatnica</a>
+<a href="/Racun/Pretraga" class="btn btn-warning btn-lg">Pretraga racuna</a>
+
+@Scripts.Render("~/Scripts/ValidacijaRacuna.js")

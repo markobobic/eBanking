@@ -1,0 +1,87 @@
+﻿@model EBanking.ViewModels.RacunUplatniceViewModel
+@using EBanking.Models
+@{
+    ViewBag.Title = "Detaljno";
+}
+
+<h2>Rad sa racunom:@Model.Racun.BrojRacuna </h2>
+<h4>Vlasnik racuna:@Model.Racun.NosilacRacuna</h4>
+
+<h4>Spisak svih transakcija</h4>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Transant</th>
+        <th>Iznos uplate</th>
+        <th>Datum prometa</th>
+        <th>Svrha uplate</th>
+        <th>Hitno</th>
+    </tr>
+    @foreach (Uplatnica item in Model.UplatniceRacuna)
+    {
+        <tr @(item.IznosUplate < 0 ? "style=background-color:red" : "style=background-color:green")>
+            <td>@item.Uplatilac</td>
+            <td>@item.IznosUplate</td>
+            <td>@item.DatumPrometa</td>
+            <td>@item.SvrhaUplate</td>
+            <td>@(item.Hitno ? "Da" : "Ne")</td>
+            <td><a href="/Uplatnica/Update?id=@item.Id" class="a-link">Izmeni</a></td>
+            <td><a href="/Uplatnica/Delete?id=@item.Id" class="a-link">Obrisi</a></td>
+        </tr>
+    }
+</table>
+
+<br />
+<h3>Ukupno stanje: @Model.Racun.UkupnoStanje</h3>
+<br />
+<a href="/Uplatnica/SamoUplate?id=@Model.Racun.Id">Prikazi samo uplate</a> | <a href="/Uplatnica/SamoIsplate?id=@Model.Racun.Id">Prikazi samo isplate</a>
+<hr />
+
+@if (Model.Racun.Aktivan)
+{
+    <h2>Izvrsi novu transakciju</h2>
+
+    <form method="post" onsubmit="return ValidacijaUplatnice(this)">
+        <input type="hidden" value="@Model.Uplatnica.Racun.Id" name="Uplatnica.Racun.Id" />
+        <input type="hidden" value="@Model.Uplatnica.Racun.BrojRacuna" name="Uplatnica.Racun.BrojRacuna" />
+        <input type="hidden" value="@Model.Uplatnica.Racun.NosilacRacuna" name="Uplatnica.Racun.NosilacRacuna" />
+        <div class="form-group">
+            @Html.LabelFor(m => m.Uplatnica.Uplatilac)
+            <input type="text" value="@Model.Uplatnica.Uplatilac" class="form-control" name="Uplatnica.Uplatilac" />
+            @Html.ValidationMessageFor(m => m.Uplatnica.Uplatilac)
+            <span id="UplatilacSpan"></span>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Uplatnica.IznosUplate)
+            <input type="text" value="@Model.Uplatnica.IznosUplate" class="form-control" name="Uplatnica.IznosUplate" />
+            @Html.ValidationMessageFor(m => m.Uplatnica.IznosUplate)
+            <span id="IznosSpan"></span>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Uplatnica.DatumPrometa)
+            <input type="date" value="@Model.Uplatnica.DatumPrometa" class="form-control" name="Uplatnica.DatumPrometa" />
+            @Html.ValidationMessageFor(m => m.Uplatnica.DatumPrometa)
+            <span id="DatumSpan"></span>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Uplatnica.SvrhaUplate)
+            <textarea name="Uplatnica.SvrhaUplate" class="form-control">@Model.Uplatnica.SvrhaUplate</textarea>
+            @Html.ValidationMessageFor(m => m.Uplatnica.SvrhaUplate)
+            <span id="SvrhaSpan"></span>
+        </div>
+
+        <input type="submit" value="Izvrsi transakciju" class="btn btn-primary" />
+    </form>
+}
+else
+{
+    <h2>Račun deaktiviran, nemoguće izvršavanje novih transakcija.</h2>
+}
+<hr />
+@Html.ActionLink("Povratak na glavnu stranicu", "Index", "Racun")
+
+@Scripts.Render("~/Scripts/ValidacijaUplatnice.js")

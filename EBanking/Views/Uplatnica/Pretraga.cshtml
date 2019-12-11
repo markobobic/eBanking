@@ -1,0 +1,60 @@
+﻿@model EBanking.ViewModels.UplatnicaUplatniceViewModel
+@using EBanking.Models
+@{
+    ViewBag.Title = "Pretraga";
+}
+
+<h2>Pretraga uplatnica</h2>
+
+<form method="post">
+    <div class="form-group">
+        @Html.LabelFor(m => m.Uplatnica.Uplatilac)
+        <input type="text" value="@Model.Uplatnica.Uplatilac" class="form-control" name="Uplatnica.Uplatilac" />
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Uplatnica.IznosUplate)
+        <input type="text" value="@Model.Uplatnica.IznosUplate" class="form-control" name="Uplatnica.IznosUplate" />
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Uplatnica.DatumPrometa)
+        <input type="date" value="@Model.Uplatnica.DatumPrometa" class="form-control" name="Uplatnica.DatumPrometa" />
+    </div>
+
+    <input type="submit" value="Pretrazi" class="btn btn-primary" />
+</form>
+<br />
+<br />
+
+@if (Model.Uplatnice != null)
+{
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Transant</th>
+            <th>Iznos uplate</th>
+            <th>Datum prometa</th>
+            <th>Svrha uplate</th>
+            <th>Hitno</th>
+        </tr>
+        @foreach (Uplatnica item in Model.Uplatnice)
+        {
+            if (Model.Uplatnica.Uplatilac == item.Uplatilac || Model.Uplatnica.IznosUplate == item.IznosUplate || Model.Uplatnica.DatumPrometa == item.DatumPrometa)
+            {
+                <tr @(item.IznosUplate < 0 ? "style=background-color:red" : "style=background-color:green")>
+                    <td>@item.Uplatilac</td>
+                    <td>@item.IznosUplate</td>
+                    <td>@item.DatumPrometa</td>
+                    <td>@item.SvrhaUplate</td>
+                    <td>@(item.Hitno ? "Da" : "Ne")</td>
+                    <td><a href="/Uplatnica/Update?id=@item.Id" class="a-link">Izmeni</a></td>
+                    <td><a href="/Uplatnica/Delete?id=@item.Id" class="a-link">Obrisi</a></td>
+                </tr>
+            }
+        }
+    </table>
+
+}
+@Html.ActionLink("Nazad", "Index", "Racun")

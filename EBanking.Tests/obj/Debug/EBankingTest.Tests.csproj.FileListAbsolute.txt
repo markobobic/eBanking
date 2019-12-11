@@ -1,0 +1,96 @@
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\EBanking.dll.config
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\EBanking.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\EBanking.pdb
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\obj\Debug\EBankingTest.Tests.csprojAssemblyReference.cache
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\obj\Debug\EBankingTest.Tests.csproj.CopyComplete
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\obj\Debug\EBanking.dll
+C:\Users\Marko\Desktop\FTN INFORMATIKA\Modul 2\Priprema za test modula 2\Modul 2 Test Primer\Modul2ParcijalniTest\Modul2ParcijalniTest.Tests\obj\Debug\EBanking.pdb
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\EBankingTest.dll.config
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\EBankingTest.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\EBankingTest.pdb
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\EBanking.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\EBanking.pdb
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\EBanking.dll.config
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.Tests.csprojAssemblyReference.cache
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.Tests.csproj.CopyComplete
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.dll
+C:\Users\Marko\Desktop\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.pdb
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\EBankingTest.dll.config
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\EBankingTest.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\EBankingTest.pdb
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\EBanking.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\EBanking.pdb
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\EBanking.dll.config
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.Tests.csprojAssemblyReference.cache
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.Tests.csproj.CopyComplete
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.dll
+C:\Users\Marko\Desktop\Projekti\Projekat\EBanking\EBanking.Tests\obj\Debug\EBankingTest.pdb

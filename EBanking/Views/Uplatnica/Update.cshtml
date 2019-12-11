@@ -1,0 +1,42 @@
+﻿@model EBanking.Models.Uplatnica
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Izmena uplatnice za: @Model.Uplatilac </h2>
+
+<form method="post">
+    <input type="hidden" value="@Model.Racun.Id" name="Racun.Id" />
+    <input type="hidden" value="@Model.Racun.BrojRacuna" name="Racun.BrojRacuna" />
+    <input type="hidden" value="@Model.Racun.NosilacRacuna" name="Racun.NosilacRacuna" />
+    <div class="form-group">
+        @Html.LabelFor(m=>m.Uplatilac)
+        <input type="text" value="@Model.Uplatilac" class="form-control" name="Uplatilac" />
+        @Html.ValidationMessageFor(m=>m.Uplatilac)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m=>m.IznosUplate)
+        <input type="text" value="@Model.IznosUplate" class="form-control" name="IznosUplate" />
+        @Html.ValidationMessageFor(m=>m.IznosUplate)
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(m=>m.DatumPrometa)
+        <input type="date" value="@Model.DatumPrometa" class="form-control" name="DatumPrometa" />
+        @Html.ValidationMessageFor(m=>m.DatumPrometa)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m=>m.SvrhaUplate)
+        <textarea name="SvrhaUplate" class="form-control">@Model.SvrhaUplate</textarea>
+        @Html.ValidationMessageFor(m=>m.SvrhaUplate)
+    </div>
+
+    <input type="submit" value="Sacuvaj izmene" class="btn btn-primary" />
+</form>
+<br />
+<hr />
+<a href="/Uplatnica?id=@Model.Racun.Id">Nazad</a>
+

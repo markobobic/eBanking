@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EBanking.Models.Uplatnica>
+@using EBanking.Models
+@{
+    ViewBag.Title = "SamoUplate";
+}
+
+<h2>SamoUplate</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Transant</th>
+        <th>Iznos uplate</th>
+        <th>Datum prometa</th>
+        <th>Svrha uplate</th>
+        <th>Hitno</th>
+    </tr>
+    @foreach (Uplatnica item in Model)
+    {
+        if (item.IznosUplate > 0)
+        {
+            <tr style="background-color:green">
+                <td>@item.Uplatilac</td>
+                <td>@item.IznosUplate</td>
+                <td>@item.DatumPrometa</td>
+                <td>@item.SvrhaUplate</td>
+                <td>@(item.Hitno ? "Da" : "Ne")</td>
+                <td><a href="/Uplatnica/Update?id=@item.Id" class="a-link">Izmeni</a></td>
+                <td><a href="/Uplatnica/Delete?id=@item.Id" class="a-link">Obrisi</a></td>
+            </tr>
+        }
+    }
+</table>
+<br />
